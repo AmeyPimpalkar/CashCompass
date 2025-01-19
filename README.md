@@ -30,21 +30,9 @@ Install dependencies using:
 pip install pandas matplotlib
 ```
 
-### Steps to run the Application 
-
-1. Clone this repository:
+ To clone this repository:
 ```bash
 git clone https://github.com/AmeyPimpalkar/CashCompass.
-```
-
-2. Navigate to the project directory:
-```bash
-cd CashCompass
-```
-
-3. Run the application
-```bash
-python Main_Finance_Tracker.py
 ```
 
 ---
