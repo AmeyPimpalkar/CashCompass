@@ -69,12 +69,12 @@ pip install pandas matplotlib
 
 **File Structure** 
 
-CashCompass/
-│
-├── Main_Finance_Tracker.py                  # Main application file
-├── DataEntry.py            # Handles input validations for date, amount, category, and description
-├── Personal_Finance_Data.csv         # CSV file to store transaction data (created automatically)
-└── README.md                # Documentation
+	CashCompass/
+	│
+	├── Main_Finance_Tracker.py                  # Main application file
+	├── DataEntry.py            # Handles input validations for date, amount, category, and description
+	├── Personal_Finance_Data.csv         # CSV file to store transaction data (created automatically)
+	└── README.md                # Documentation
 
 ---
 
