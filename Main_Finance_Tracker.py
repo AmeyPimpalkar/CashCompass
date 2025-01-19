@@ -16,7 +16,7 @@ class CSV:
     # Static variables for the CSV file, column names, and date format
     CSV_FILE = "finance_data.csv"
     COLUMNS = ["date", "amount", "category", "description"]
-    FORMAT = "%d-%m-%Y"
+    DATE_FORMAT = "%d-%m-%Y"
 
     @classmethod
     def initialize_csv(cls):
@@ -51,9 +51,9 @@ class CSV:
         Filters transactions within a given date range and provides a summary.
         """
         df = pd.read_csv(cls.CSV_FILE)
-        df["date"] = pd.to_datetime(df["date"], format=CSV.FORMAT)
-        start_date = datetime.strptime(start_date, CSV.FORMAT)
-        end_date = datetime.strptime(end_date, CSV.FORMAT)
+        df["date"] = pd.to_datetime(df["date"], format=CSV.DATE_FORMAT)
+        start_date = datetime.strptime(start_date, CSV.DATE_FORMAT)
+        end_date = datetime.strptime(end_date, CSV.DATE_FORMAT)
 
         mask = (df["date"] >= start_date) & (df["date"] <= end_date)
         filtered_df = df.loc[mask]
