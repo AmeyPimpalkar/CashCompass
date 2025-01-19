@@ -1,0 +1,32 @@
+date,amount,category,description
+01-01-2025,1500,Income,Salary
+02-01-2025,80,Expense,Groceries
+03-01-2025,200,Expense,Utilities
+04-01-2025,250,Income,Freelance Work
+05-01-2025,90,Expense,Entertainment
+06-01-2025,120,Expense,Gas
+07-01-2025,600,Income,Bonus
+08-01-2025,40,Expense,Snacks
+09-01-2025,300,Income,Stock Dividends
+10-01-2025,70,Expense,Restaurant
+11-01-2025,45,Expense,Coffee
+12-01-2025,140,Expense,Books
+13-01-2025,110,Expense,Clothing
+14-01-2025,180,Expense,Transport
+15-01-2025,1300,Income,Salary
+16-01-2025,50,Expense,Stationery
+17-01-2025,190,Expense,Utilities
+18-01-2025,400,Income,Freelance Work
+19-01-2025,85,Expense,Entertainment
+20-01-2025,150,Expense,Groceries
+21-01-2025,750,Income,Bonus
+22-01-2025,55,Expense,Snacks
+23-01-2025,400,Income,Stock Dividends
+24-01-2025,75,Expense,Coffee
+25-01-2025,60,Expense,Gas
+26-01-2025,170,Expense,Books
+27-01-2025,100,Expense,Clothing
+28-01-2025,200,Expense,Transport
+29-01-2025,1400,Income,Salary
+30-01-2025,35,Expense,Stationery
+31-01-2025,210,Expense,Utilities
