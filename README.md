@@ -28,4 +28,69 @@ This project is lightweight, stores data in a CSV file, and is ideal for those w
 Install dependencies using:
 ```bash
 pip install pandas matplotlib
+```
 
+---
+
+### Application Flow
+
+**1. Adding a Transaction** 
+
+	•	Select “Add a new transaction” from the menu.
+	•	Enter the following details:
+	•	Date: In dd-mm-yyyy format (leave blank for today’s date).
+	•	Amount: Positive value for the transaction.
+	•	Category: Select Income or Expense.
+	•	Description: An optional description for the transaction.
+
+**2. Viewing Transactions**
+
+	•	Select “View transactions and summary within a date range”.
+	•	Enter the start and end dates in dd-mm-yyyy format.
+	•	The application will:
+	•	Display all transactions within the date range.
+	•	Provide a summary with total income, total expenses, and net savings.
+	•	Optionally, generate a visual plot to analyze income and expense trends.
+
+**3. Exiting the Application**
+	•	Select “Exit” from the menu to terminate the program.
+
+ **Example Workflow** 
+
+ **Adding Transactions** 
+
+<img width="413" alt="Screenshot 2025-01-19 at 11 15 17 AM" src="https://github.com/user-attachments/assets/eab32093-00d9-4138-bd3a-79a6735eb38f" />
+
+ **Viewing Transactions** 
+
+ <img width="336" alt="Screenshot 2025-01-19 at 9 36 36 PM" src="https://github.com/user-attachments/assets/e13eae9e-7b8d-4e48-befc-bc426b327777" />
+
+---
+
+**File Structure** 
+
+CashCompass/
+│
+├── Main_Finance_Tracker.py                  # Main application file
+├── DataEntry.py            # Handles input validations for date, amount, category, and description
+├── Personal_Finance_Data.csv         # CSV file to store transaction data (created automatically)
+└── README.md                # Documentation
+
+---
+
+**Acknowledgments** 
+
+	•	pandas: For CSV manipulation and data handling.
+	•	matplotlib: For generating interactive and informative visualizations.
+	•	Inspiration: The need for a simple, offline finance management tool for personal use.
+
+---
+
+Contributing
+
+If you’d like to contribute:
+	1.	Fork the repository.
+	2.	Create a new branch (git checkout -b feature-name).
+	3.	Commit your changes (git commit -m "Add feature-name").
+	4.	Push to the branch (git push origin feature-name).
+	5.	Open a Pull Request.
