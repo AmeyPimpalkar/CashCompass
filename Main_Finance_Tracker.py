@@ -74,10 +74,8 @@ class CSV:
         return filtered_df
 
 
+# Handles adding a new transaction by collecting inputs and saving them to the CSV file.
 def add():
-    """
-    Handles adding a new transaction by collecting inputs and saving them to the CSV file.
-    """
     CSV.initialize_csv()
     date = get_date("Enter the date of the transaction (dd-mm-yyyy) or enter for today's date: ", allow_default=True)
     amount = get_amount()
@@ -139,7 +137,6 @@ def main():
             break
         else:
             print("Invalid choice. Enter 1, 2 or 3.")
-
 
 if __name__ == "__main__":
     main()
